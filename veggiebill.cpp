@@ -4,6 +4,7 @@ using namespace std;
 class A
 {
 public:
+float t_amt = 0;
   A()  { 
       cout << "Welcome to the Veggie Shop" << endl;
       cout << "Items" << endl;
@@ -51,7 +52,6 @@ public:
   
 class C: public A, public B  //inheriting both the classes
 {
-    float t_amt = 0;
 public:
   C()
   {
